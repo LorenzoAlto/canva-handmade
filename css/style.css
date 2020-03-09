@@ -129,7 +129,7 @@ body {
   /* margin: 0 auto; */
 
   position: relative;
-  min-height: calc(100vh - 56px - 84px - 56px - 47px - 5px);
+  min-height: calc(795px - 56px - 84px - 56px - 47px - 5px);
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 0;
@@ -219,6 +219,7 @@ body {
 
 .float:hover {
   background-color: rgb(138, 82, 252);
+  text-decoration: none;
 }
 /* impostare un immagine di default che rientri nel div */
 .canvas img {
@@ -246,4 +247,49 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.sandwich {
+  display: none;
+}
+
+.secondary {
+  display: none;
+}
+
+@media screen and (max-width: 1418px) {
+  .navigation {
+    display: none;
+  }
+
+  .sandwich {
+    display: block;
+    text-align: right;
+  }
+
+  .sandwich img {
+
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .change {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .primary {
+    display: none;
+  }
+
+  .secondary {
+    display: block;
+    text-align: center;
+  }
+
+  .secondary h3 {
+    padding-top: 45vh;
+  }
 }

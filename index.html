@@ -88,11 +88,11 @@
     <title>Progetto senza titolo</title>
   </head>
   <body ondragover="drag_over(event)" ondrop="drop(event)">
-    <div class="container-fluid">
+    <div class="container-fluid primary">
       <nav class="navbar navbar-expand-lg navbar-dark top-nav">
         <!-- da levare che la navbar diventi cicciona -->
         <!-- modificare i bordi dei bottoni all' interno della nav-->
-        <div class="col-6 p0w">
+        <div class="col p0w">
           <div class="row">
             <button class="btn btn-nav m5w">
               <svg
@@ -157,10 +157,14 @@
             </button>
 
             <p id="logger-text" class="p-nav m5w"></p>
+            <div class="sandwich col">
+              <img src="img/open-menu.svg" alt="" height="25" >
+            </div>
+            
           </div>
         </div>
 
-        <div class="col-6 p0w">
+        <div class="col p0w navigation">
           <div class="row">
             <button class="btn btn-nav-2 m5w ">Biglietto - Senza titolo</button>
 
@@ -558,9 +562,9 @@
               value="16"
               min="1"
             />
-            <button id="text-style" class="btn italic">I</button>
-            <button id="text-decoration" class="btn underline">U</button>
-            <select class="form-control col-1" id="text-weight">
+            <button id="text-style" class="btn italic change">I</button>
+            <button id="text-decoration" class="btn underline change">U</button>
+            <select class="form-control col-1 change" id="text-weight">
               <option value="normal">Medio</option>
               <option value="bold">Grassetto</option>
               <option value="lighter">Fino</option>
@@ -573,12 +577,12 @@
             />
             <input
               type="number"
-              class="form-control col-1 "
+              class="form-control col-1 change"
               id="img-size"
               value="200"
               min="100"
             />
-            <select class="form-control col-1" id="text-font">
+            <select class="form-control col-1 change" id="text-font">
               <option value="'Roboto', sans-serif">Roboto</option>
               <option value="'Playfair Display', serif"
                 >Playfair Display</option
@@ -716,5 +720,14 @@
       <a class="float" href="">Aiuto</a>
     </div>
     <!-- Fine container-fluid -->
+
+    <div class="conainer-fluid secondary">
+      <div class=row>
+        <div class="col-8 offset-2">
+          <h3>Schermo troppo piccolo</h3>
+          <p>Aumenta la finestra o utilizza un dispositivo con una risoluzione maggiore</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
