@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Icone -->
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="img/icon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="img/icon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="img/icon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="img/icon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/icon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="img/icon/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png" />
+    <link rel="manifest" href="img/icon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC|Cinzel|Comfortaa|Indie+Flower|Playfair+Display|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/structure.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/utility.js"></script>
+
+    <title>Progetto senza titolo</title>
+  </head>
+  <body ondragover="drag_over(event)" ondrop="drop(event)">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark top-nav">
+        <!-- da levare che la navbar diventi cicciona -->
+        <!-- modificare i bordi dei bottoni all' interno della nav-->
+        <div class="col-6 p0w">
+          <div class="row">
+            <button class="btn btn-nav m5w">
+              <svg
+                class="m5w"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                id="Layer_1"
+                x="0px"
+                y="0px"
+                viewBox="0 0 492 492"
+                style="enable-background:new 0 0 492 492;"
+                xml:space="preserve"
+                width="15"
+                height="15"
+              >
+                <g>
+                  <g>
+                    <g>
+                      <path
+                        d="M198.608,246.104L382.664,62.04c5.068-5.056,7.856-11.816,7.856-19.024c0-7.212-2.788-13.968-7.856-19.032l-16.128-16.12    C361.476,2.792,354.712,0,347.504,0s-13.964,2.792-19.028,7.864L109.328,227.008c-5.084,5.08-7.868,11.868-7.848,19.084    c-0.02,7.248,2.76,14.028,7.848,19.112l218.944,218.932c5.064,5.072,11.82,7.864,19.032,7.864c7.208,0,13.964-2.792,19.032-7.864    l16.124-16.12c10.492-10.492,10.492-27.572,0-38.06L198.608,246.104z"
+                        data-original="#000000"
+                        class="active-path"
+                        data-old_color="#000000"
+                        fill="#FFFFFF"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              Home
+            </button>
+
+            <button class="btn btn-nav m5w">File</button>
+
+            <button class="btn btn-nav m5w">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="12"
+                viewBox="0 -92 512 512"
+                width="12"
+                class="m5w"
+              >
+                <g>
+                  <path
+                    d="m77.671875 277.976562v34.386719c0 8.328125 6.75 15.078125 15.078125 15.078125h326.5c8.328125 0 15.078125-6.75 15.078125-15.078125v-34.386719zm0 0"
+                    data-original="#000000"
+                    class="active-path"
+                    data-old_color="#000000"
+                    fill="#FFFFFF"
+                  />
+                  <path
+                    d="m512 86.316406c0-26.863281-21.855469-48.71875-48.71875-48.71875s-48.714844 21.855469-48.714844 48.71875c0 12.914063 5.058594 24.664063 13.292969 33.390625-14.644531 16.382813-35.910156 26.722657-59.558594 26.722657-38.28125 0-70.34375-27.0625-78.101562-63.054688 8.957031-8.839844 14.519531-21.109375 14.519531-34.65625 0-26.863281-21.855469-48.71875-48.71875-48.71875s-48.71875 21.855469-48.71875 48.71875c0 13.546875 5.566406 25.816406 14.519531 34.65625-7.757812 35.992188-39.820312 63.054688-78.101562 63.054688-23.648438 0-44.914063-10.339844-59.558594-26.722657 8.234375-8.726562 13.296875-20.476562 13.296875-33.390625 0-26.863281-21.855469-48.71875-48.71875-48.71875s-48.71875 21.855469-48.71875 48.71875c0 23.28125 16.417969 42.789063 38.28125 47.578125 4.324219 35.6875 12.679688 79.167969 28.8125 113.925781h377.8125c16.132812-34.757812 24.488281-78.238281 28.8125-113.925781 21.863281-4.792969 38.28125-24.296875 38.28125-47.578125zm0 0"
+                    data-original="#000000"
+                    class="active-path"
+                    data-old_color="#000000"
+                    fill="#FFFFFF"
+                  />
+                </g>
+              </svg>
+              Ridimensiona
+            </button>
+
+            <p id="logger-text" class="p-nav m5w"></p>
+          </div>
+        </div>
+
+        <div class="col-6 p0w">
+          <div class="row">
+            <button class="btn btn-nav-2 m5w ">Biglietto - Senza titolo</button>
+
+            <button class="btn btn-nav-3 m5w ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="12"
+                viewBox="0 -92 512 512"
+                width="12"
+                class="m5w"
+              >
+                <g>
+                  <path
+                    d="m419.25 277.976562h-326.5c-4.988281 0-9.648438-2.464843-12.457031-6.585937-43.078125-63.171875-46.382813-184.691406-46.632813-202.730469-.015625-.707031-.023437-1.421875-.023437-2.132812 0-8.316406 6.734375-15.0625 15.050781-15.078125h.03125c8.300781 0 15.046875 6.714843 15.078125 15.019531 0 .101562.003906.992188.039063 2.570312 1.328124 42.902344 36.644531 77.390626 79.863281 77.390626 44.058593 0 79.902343-35.84375 79.902343-79.902344 0-8.328125 6.753907-15.078125 15.078126-15.078125h34.636718c8.328125 0 15.078125 6.75 15.078125 15.078125 0 44.058594 35.847657 79.902344 79.90625 79.902344 43.257813 0 78.597657-34.550782 79.867188-77.507813.027343-1.507813.035156-2.351563.035156-2.449219.03125-8.308594 6.773437-15.023437 15.078125-15.023437h.027344c8.316406.015625 15.050781 6.761719 15.050781 15.078125 0 .714844-.007813 1.425781-.019531 2.136718-.253906 18.035157-3.558594 139.558594-46.632813 202.730469-2.808593 4.117188-7.472656 6.582031-12.457031 6.582031zm0 0"
+                    fill="#fff780"
+                    data-original="#FFF780"
+                    class="active-path"
+                    style="fill:#F3BF4C"
+                    data-old_color="#fff780"
+                  />
+                  <path
+                    d="m463.308594 51.449219c-.007813 0-.015625 0-.027344 0-8.300781 0-15.046875 6.714843-15.078125 15.019531 0 .101562-.003906.945312-.035156 2.453125-1.269531 42.953125-36.609375 77.507813-79.867188 77.507813-44.058593 0-79.902343-35.84375-79.902343-79.902344 0-8.328125-6.753907-15.078125-15.078126-15.078125h-17.316406v226.523437h163.246094c4.988281 0 9.648438-2.464844 12.457031-6.582031 43.078125-63.171875 46.382813-184.695313 46.632813-202.730469.015625-.707031.023437-1.421875.023437-2.132812-.003906-8.316406-6.738281-15.0625-15.054687-15.078125zm0 0"
+                    fill="#ffc02e"
+                    data-original="#FFC02E"
+                    class=""
+                    style="fill:#F3BF4C"
+                    data-old_color="#ffc02e"
+                  />
+                  <path
+                    d="m256 0c-26.863281 0-48.71875 21.855469-48.71875 48.71875s21.855469 48.714844 48.71875 48.714844 48.71875-21.851563 48.71875-48.714844-21.855469-48.71875-48.71875-48.71875zm0 0"
+                    fill="#ffc02e"
+                    data-original="#FFC02E"
+                    class=""
+                    style="fill:#F3BF4C"
+                    data-old_color="#ffc02e"
+                  />
+                  <path
+                    d="m256.003906 0v97.4375c26.863282-.003906 48.714844-21.855469 48.714844-48.71875s-21.855469-48.71484375-48.714844-48.71875zm0 0"
+                    fill="#ffa73b"
+                    data-original="#FFA73B"
+                    class=""
+                    style="fill:#F3BF4C"
+                    data-old_color="#ffa73b"
+                  />
+                  <path
+                    d="m48.71875 37.597656c-26.863281 0-48.71875 21.855469-48.71875 48.71875 0 26.863282 21.855469 48.71875 48.71875 48.71875s48.714844-21.855468 48.714844-48.71875c0-26.863281-21.851563-48.71875-48.714844-48.71875zm0 0"
+                    fill="#ffc02e"
+                    data-original="#FFC02E"
+                    class=""
+                    style="fill:#F3BF4C"
+                    data-old_color="#ffc02e"
+                  />
+                  <path
+                    d="m463.28125 37.597656c-26.863281 0-48.714844 21.855469-48.714844 48.71875 0 26.859375 21.851563 48.714844 48.714844 48.714844s48.71875-21.855469 48.71875-48.714844c0-26.863281-21.855469-48.71875-48.71875-48.71875zm0 0"
+                    fill="#ffa73b"
+                    data-original="#FFA73B"
+                    class=""
+                    style="fill:#F3BF4C"
+                    data-old_color="#ffa73b"
+                  />
+                  <path
+                    d="m419.25 327.441406h-326.5c-8.328125 0-15.078125-6.75-15.078125-15.078125v-44.964843h356.65625v44.964843c0 8.328125-6.75 15.078125-15.078125 15.078125zm0 0"
+                    fill="#ffc02e"
+                    data-original="#FFC02E"
+                    class=""
+                    style="fill:#F3BF4C"
+                    data-old_color="#ffc02e"
+                  />
+                  <path
+                    d="m256.003906 327.441406h163.246094c8.328125 0 15.078125-6.75 15.078125-15.078125v-44.964843h-178.324219zm0 0"
+                    fill="#ffa73b"
+                    data-original="#FFA73B"
+                    class=""
+                    style="fill:#F3BF4C"
+                    data-old_color="#ffa73b"
+                  />
+                </g>
+              </svg>
+              Prova Canva Pro
+            </button>
+
+            <button class="btn btn-nav-3 m5w">
+              Condividi
+            </button>
+
+            <button class="btn btn-nav-3 m5w">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                id="Layer_1"
+                x="0px"
+                y="0px"
+                viewBox="0 0 512 512"
+                style="enable-background:new 0 0 512 512;"
+                xml:space="preserve"
+                width="18"
+                height="18"
+                class=""
+              >
+                <g>
+                  <g>
+                    <g>
+                      <g>
+                        <path
+                          d="M240.915,420.418c0.004,0.004,0.008,0.007,0.012,0.011c0.493,0.492,1.012,0.959,1.551,1.402     c0.247,0.203,0.508,0.379,0.762,0.57c0.303,0.227,0.6,0.462,0.915,0.673c0.304,0.203,0.619,0.379,0.931,0.565     c0.286,0.171,0.565,0.35,0.859,0.507c0.318,0.17,0.645,0.314,0.97,0.467c0.306,0.145,0.608,0.298,0.922,0.428     c0.315,0.13,0.637,0.236,0.957,0.35c0.337,0.121,0.669,0.25,1.013,0.354c0.32,0.097,0.645,0.168,0.969,0.249     c0.351,0.089,0.698,0.187,1.056,0.258c0.375,0.074,0.753,0.118,1.13,0.172c0.311,0.044,0.618,0.104,0.933,0.135     c1.4,0.138,2.811,0.138,4.211,0c0.315-0.031,0.622-0.09,0.933-0.135c0.377-0.054,0.755-0.098,1.13-0.172     c0.358-0.071,0.705-0.169,1.056-0.258c0.323-0.081,0.649-0.152,0.969-0.249c0.344-0.104,0.677-0.233,1.013-0.354     c0.32-0.115,0.642-0.22,0.957-0.35c0.314-0.13,0.616-0.283,0.922-0.428c0.325-0.153,0.652-0.297,0.97-0.467     c0.294-0.157,0.573-0.337,0.859-0.507c0.312-0.186,0.627-0.362,0.931-0.565c0.315-0.211,0.612-0.446,0.915-0.673     c0.254-0.19,0.515-0.367,0.762-0.57c0.539-0.443,1.058-0.909,1.551-1.402c0.004-0.004,0.008-0.007,0.012-0.011l149.333-149.333     c8.331-8.331,8.331-21.839,0-30.17s-21.839-8.331-30.17,0L277.333,353.83V21.333C277.333,9.551,267.782,0,256,0     s-21.333,9.551-21.333,21.333V353.83L121.752,240.915c-8.331-8.331-21.839-8.331-30.17,0s-8.331,21.839,0,30.17L240.915,420.418z     "
+                          data-original="#000000"
+                          class="active-path"
+                          data-old_color="#000000"
+                          fill="#FFFFFF"
+                        />
+                        <path
+                          d="M405.333,469.333H106.667c-11.782,0-21.333,9.551-21.333,21.333S94.885,512,106.667,512h298.667     c11.782,0,21.333-9.551,21.333-21.333S417.115,469.333,405.333,469.333z"
+                          data-original="#000000"
+                          class="active-path"
+                          data-old_color="#000000"
+                          fill="#FFFFFF"
+                        />
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </button>
+
+            <div class="btn-group btn-group-toggle m5w">
+              <button class="btn btn-nav-4 btn-group-border-r">
+                <svg
+                  class="m5w"
+                  width="20"
+                  height="20"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 512 512"
+                  style="enable-background:new 0 0 512 512;"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M461.913,83.478H50.087C22.467,83.478,0,105.974,0,133.565v244.87c0,27.622,22.498,50.087,50.087,50.087h411.826
+			c27.578,0,50.087-22.453,50.087-50.087v-244.87C512,105.984,489.543,83.478,461.913,83.478z M460.563,116.87
+			c-8.494,8.494-186.871,186.871-192.757,192.758c-6.527,6.526-17.085,6.526-23.612,0C238.303,303.735,59.927,125.36,51.437,116.87
+			H460.563z M33.391,377.085V146.046l115.519,115.519L33.391,377.085z M62.567,395.13l109.954-109.954l48.061,48.061
+			c19.526,19.528,51.304,19.529,70.834,0l48.061-48.061L449.432,395.13H62.567z M478.609,377.085L363.089,261.565l115.519-115.519
+			V377.085z"
+                      />
+                    </g>
+                  </g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                </svg>
+                <!-- lettera storta -->
+                Stampa biglietti
+              </button>
+
+              <button class="btn btn-nav-4 btn-group-border-l">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  version="1.1"
+                  id="Layer_1"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 491.996 491.996"
+                  style="enable-background:new 0 0 491.996 491.996;"
+                  xml:space="preserve"
+                  width="12"
+                  height="12"
+                  class=""
+                >
+                  <g>
+                    <g>
+                      <g>
+                        <path
+                          d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848    L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128    c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084    c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224    C491.996,136.902,489.204,130.046,484.132,124.986z"
+                          data-original="#000000"
+                          class="active-path"
+                          data-old_color="#000000"
+                          fill="#000000"
+                        />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Fine navbar -->
+
+      <div class="side-bar">
+        <!-- cambiare immagini in svg -->
+        <!-- far cambiare colore agli svg -->
+        <!-- sistemare questione paddings -->
+        <!-- <button class="col btn-side m5h">
+          <img src="img/layout.svg" height="18" width="auto" />
+          <p>Modelli</p>
+        </button> -->
+        <button
+          class="col btn-side btn-action"
+          data-tag="img"
+          data-target=".canvas:last-child"
+          data-placeholder="https://sportwerk.be/wp-content/uploads/placeholder.png"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="18"
+            viewBox="0 0 384 384"
+            width="18"
+            class="prova"
+          >
+            <g>
+              <path
+                d="m336 0h-288c-26.472656 0-48 21.527344-48 48v288c0 26.472656 21.527344 48 48 48h288c26.472656 0 48-21.527344 48-48v-288c0-26.472656-21.527344-48-48-48zm-288 32h288c8.824219 0 16 7.175781 16 16v113.375l-52.6875-52.6875c-6.25-6.246094-16.375-6.246094-22.625 0l-112.6875 112.6875-40.6875-40.6875c-6.25-6.246094-16.375-6.246094-22.625 0l-68.6875 68.6875v-201.375c0-8.824219 7.175781-16 16-16zm288 320h-288c-8.824219 0-16-7.175781-16-16v-41.375l80-80 92.6875 92.679688c3.128906 3.136718 7.214844 4.695312 11.3125 4.695312s8.183594-1.558594 11.3125-4.6875c6.246094-6.25 6.246094-16.375 0-22.625l-40.6875-40.6875 101.375-101.367188 64 64v129.367188c0 8.824219-7.175781 16-16 16zm0 0"
+                data-original="#000000"
+                class="active-path"
+                data-old_color="#000000"
+                fill="#ABADAE"
+              />
+              <path
+                d="m128 96c0 17.671875-14.328125 32-32 32s-32-14.328125-32-32 14.328125-32 32-32 32 14.328125 32 32zm0 0"
+                data-original="#000000"
+                class="active-path"
+                data-old_color="#000000"
+                fill="#ABADAE"
+              />
+            </g>
+          </svg>
+          <p>Foto</p>
+        </button>
+        <!-- <button class="col btn-side m5h">
+          <img src="img/x.svg" height="18" width="auto" />
+          <p>Elementi</p>
+        </button> -->
+        <button
+          class="col btn-side btn-action"
+          data-tag="p"
+          data-target=".canvas:last-child"
+          data-placeholder="Scrivi qui il tuo testo"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="18"
+            viewBox="0 -45 517.33333 517"
+            width="18"
+          >
+            <g>
+              <path
+                d="m240 384.167969h-21.332031v-341.335938h128v21.335938c0 11.796875 9.535156 21.332031 21.332031 21.332031s21.332031-9.535156 21.332031-21.332031v-42.667969c0-11.796875-9.535156-21.332031-21.332031-21.332031h-346.667969c-11.796875 0-21.332031 9.535156-21.332031 21.332031v42.667969c0 11.796875 9.535156 21.332031 21.332031 21.332031s21.335938-9.535156 21.335938-21.332031v-21.335938h133.332031v341.335938h-21.332031c-11.796875 0-21.335938 9.535156-21.335938 21.332031s9.539063 21.332031 21.335938 21.332031h85.332031c11.796875 0 21.332031-9.535156 21.332031-21.332031s-9.535156-21.332031-21.332031-21.332031zm0 0"
+                data-original="#000000"
+                class="active-path"
+                data-old_color="#000000"
+                fill="#ABADAE"
+              />
+              <path
+                d="m496 192.167969h-170.667969c-11.796875 0-21.332031 9.535156-21.332031 21.332031v37.332031c0 11.796875 9.535156 21.335938 21.332031 21.335938s21.335938-9.539063 21.335938-21.335938v-16h42.664062v149.335938h-10.664062c-11.796875 0-21.335938 9.535156-21.335938 21.332031s9.539063 21.332031 21.335938 21.332031h64c11.796875 0 21.332031-9.535156 21.332031-21.332031s-9.535156-21.332031-21.332031-21.332031h-10.667969v-149.335938h42.667969v10.667969c0 11.796875 9.535156 21.332031 21.332031 21.332031s21.332031-9.535156 21.332031-21.332031v-32c0-11.796875-9.535156-21.332031-21.332031-21.332031zm0 0"
+                data-original="#000000"
+                class="active-path"
+                data-old_color="#000000"
+                fill="#ABADAE"
+              />
+            </g>
+          </svg>
+          <p>Testo</p>
+        </button>
+        <button
+          class="col btn-side btn-action"
+          data-tag="video"
+          data-target=".canvas:last-child"
+          data-placeholder="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 -61 512 512"
+            width="18"
+            height="18"
+            class=""
+          >
+            <g>
+              <path
+                d="m75 390h362c41.355469 0 75-33.644531 75-75v-240c0-41.355469-33.644531-75-75-75h-362c-41.355469 0-75 33.644531-75 75v240c0 41.355469 33.644531 75 75 75zm-45-315c0-24.8125 20.1875-45 45-45h362c24.8125 0 45 20.1875 45 45v240c0 24.8125-20.1875 45-45 45h-362c-24.8125 0-45-20.1875-45-45zm0 0"
+                data-original="#000000"
+                class="active-path"
+                data-old_color="#000000"
+                fill="#ABADAE"
+              />
+              <path
+                d="m181 94.507812v203.898438l180.5-103.621094zm30 50.984376 89.5 49.722656-89.5 51.378906zm0 0"
+                data-original="#000000"
+                class="active-path"
+                data-old_color="#000000"
+                fill="#ABADAE"
+              />
+            </g>
+          </svg>
+          <p>Video</p>
+        </button>
+        <button
+          class="col btn-side btn-action"
+          data-tag="audio"
+          data-target=".canvas:last-child"
+          data-placeholder="http://www.sousound.com/music/healing/healing_01.mp3"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            id="Layer_1"
+            x="0px"
+            y="0px"
+            viewBox="0 0 512.003 512.003"
+            style="enable-background:new 0 0 512.003 512.003;"
+            xml:space="preserve"
+            width="18"
+            height="18"
+            class=""
+          >
+            <g>
+              <g>
+                <g>
+                  <path
+                    d="M471.492,16.683c-0.196-1.12-0.468-2.24-0.865-3.346c-3.754-10.464-15.277-15.901-25.741-12.15L196.403,90.323    c-0.134,0.048-0.258,0.111-0.389,0.162c-0.39,0.15-0.776,0.309-1.155,0.482c-0.254,0.115-0.502,0.236-0.749,0.361    c-0.322,0.164-0.64,0.334-0.951,0.515c-0.286,0.165-0.568,0.335-0.843,0.513c-0.254,0.164-0.501,0.331-0.746,0.506    c-0.303,0.215-0.601,0.436-0.891,0.666c-0.207,0.165-0.408,0.335-0.609,0.507c-0.294,0.254-0.582,0.513-0.86,0.782    c-0.188,0.182-0.37,0.37-0.55,0.56c-0.259,0.272-0.514,0.547-0.757,0.832c-0.188,0.22-0.368,0.447-0.546,0.674    c-0.209,0.268-0.415,0.538-0.611,0.816c-0.191,0.27-0.37,0.547-0.547,0.827c-0.16,0.252-0.317,0.505-0.464,0.765    c-0.182,0.318-0.352,0.641-0.515,0.97c-0.121,0.242-0.24,0.484-0.352,0.731c-0.156,0.345-0.299,0.696-0.436,1.051    c-0.098,0.254-0.193,0.509-0.28,0.768c-0.117,0.344-0.221,0.69-0.319,1.041c-0.083,0.297-0.161,0.594-0.229,0.895    c-0.072,0.313-0.135,0.629-0.193,0.947c-0.066,0.361-0.119,0.723-0.166,1.088c-0.034,0.268-0.063,0.538-0.085,0.81    c-0.035,0.42-0.055,0.841-0.064,1.265c-0.003,0.14-0.021,0.274-0.021,0.413v234.913c-14.721-10.035-32.491-15.913-51.612-15.913    c-50.655,0-91.865,41.211-91.865,91.866s41.21,91.866,91.865,91.866c50.655,0,91.866-41.211,91.866-91.866V123.431l208.826-74.91    v209.09c-14.721-10.035-32.491-15.913-51.612-15.913c-50.655,0-91.865,41.211-91.865,91.866c0,50.655,41.21,91.866,91.865,91.866    s91.866-41.211,91.866-91.866V22.697C472.407,20.602,472.086,18.583,471.492,16.683z M131.461,471.747    c-28.459,0-51.61-23.153-51.61-51.612c0-28.459,23.152-51.612,51.61-51.612s51.612,23.153,51.612,51.612    C183.072,448.594,159.919,471.747,131.461,471.747z M380.541,385.176c-28.459,0-51.61-23.153-51.61-51.612    c0-28.459,23.152-51.612,51.61-51.612c28.459,0,51.612,23.153,51.612,51.612C432.152,362.022,408.999,385.176,380.541,385.176z"
+                    data-original="#000000"
+                    class="active-path"
+                    data-old_color="#000000"
+                    fill="#ABADAE"
+                  />
+                </g>
+              </g>
+            </g>
+          </svg>
+
+          <p>Musica</p>
+        </button>
+        <!-- <button class="col btn-side m5h">
+          <img src="img/texture.svg" height="18" width="auto" />
+          <p>Sfondo</p>
+        </button>
+        <button class="col btn-side m5h">
+          <img src="img/upload.svg" height="18" width="auto" />
+          <p>Caricamenti</p>
+        </button>
+        <button class="col btn-side m5h">
+          <img src="img/folder.svg" height="18" width="auto" />
+          <p>Cartelle</p>
+        </button>
+        <button class="col btn-side m5h">
+          <img src="img/more.svg" height="18" width="auto" />
+          <p>Altro</p>
+        </button> -->
+      </div>
+      <!-- Fine sidebar -->
+
+      <div class="tool-bar">
+        <!-- sistemare tutti i bottoni, rendere il tutto responsive come l'originale-->
+        <!-- gestire questione delle colonne e margin provare a fare senza-->
+
+        <div class="col-12 editor">
+          <div class="form-inline">
+            <input
+              type="text"
+              class="form-control col-2"
+              id="text-editor"
+              placeholder="Modifica testo"
+            />
+            <input
+              type="color"
+              class="form-control col-1"
+              id="text-color"
+              placeholder="Modifica colore"
+            />
+            <input
+              type="number"
+              class="form-control col-1 "
+              id="text-size"
+              value="16"
+              min="1"
+            />
+            <button id="text-style" class="btn italic">I</button>
+            <button id="text-decoration" class="btn underline">U</button>
+            <select class="form-control col-1" id="text-weight">
+              <option value="normal">Medio</option>
+              <option value="bold">Grassetto</option>
+              <option value="lighter">Fino</option>
+            </select>
+            <input
+              type="text"
+              class="form-control col-3"
+              id="url"
+              placeholder="URL"
+            />
+            <input
+              type="number"
+              class="form-control col-1 "
+              id="img-size"
+              value="200"
+              min="100"
+            />
+            <select class="form-control col-1" id="text-font">
+              <option value="'Roboto', sans-serif">Roboto</option>
+              <option value="'Playfair Display', serif"
+                >Playfair Display</option
+              >
+              <option value="'Indie Flower', cursive">Indie Flower</option>
+              <option value="'Comfortaa', cursive">Comfortaa</option>
+              <option value="'Amatic SC', cursive">Amatic SC</option>
+              <option value="'Cinzel', serif">Cinzel</option>
+            </select>
+            <select class="form-control col-1" id="text-position">
+              <option value="left">Sinistra</option>
+              <option value="center">Centrato</option>
+              <option value="right">Destra</option>
+            </select>
+            <div class="col-1"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Fine toolbar -->
+
+      <div class="row work-table justify-content-md-center">
+        <div class="col-7">
+          <div class="row row-cols-1">
+            <div class="col-2 offset-10 work-btn">
+              <!-- da modificare la grandezza delle box -->
+              <!-- spaziatura tra bottoni -->
+              <!-- trovare un altro modo per allinearli in fondo a destra-->
+              <!-- unire questa row al work-area per averla sempre ripetuta -->
+              <button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="15"
+                  viewBox="-15 -15 484.00019 484"
+                  width="15"
+                >
+                  <g>
+                    <path
+                      d="m401.648438 18.234375c-24.394532-24.351563-63.898438-24.351563-88.292969 0l-22.101563 22.222656-235.269531 235.144531-.5.503907c-.121094.121093-.121094.25-.25.25-.25.375-.625.746093-.871094 1.121093 0 .125-.128906.125-.128906.25-.25.375-.371094.625-.625 1-.121094.125-.121094.246094-.246094.375-.125.375-.25.625-.378906 1 0 .121094-.121094.121094-.121094.25l-52.199219 156.96875c-1.53125 4.46875-.367187 9.417969 2.996094 12.734376 2.363282 2.332031 5.550782 3.636718 8.867188 3.625 1.355468-.023438 2.699218-.234376 3.996094-.625l156.847656-52.324219c.121094 0 .121094 0 .25-.121094.394531-.117187.773437-.285156 1.121094-.503906.097656-.011719.183593-.054688.253906-.121094.371094-.25.871094-.503906 1.246094-.753906.371093-.246094.75-.621094 1.125-.871094.125-.128906.246093-.128906.246093-.25.128907-.125.378907-.246094.503907-.5l257.371093-257.371094c24.351563-24.394531 24.351563-63.898437 0-88.289062zm-232.273438 353.148437-86.914062-86.910156 217.535156-217.535156 86.914062 86.910156zm-99.15625-63.808593 75.929688 75.925781-114.015626 37.960938zm347.664062-184.820313-13.238281 13.363282-86.917969-86.917969 13.367188-13.359375c14.621094-14.609375 38.320312-14.609375 52.945312 0l33.964844 33.964844c14.511719 14.6875 14.457032 38.332031-.121094 52.949218zm0 0"
+                      data-original="#000000"
+                      class="active-path"
+                      data-old_color="#000000"
+                      fill="#ABADAE"
+                    />
+                  </g>
+                </svg>
+              </button>
+              <button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  version="1.1"
+                  id="Capa_1"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 477.867 477.867"
+                  style="enable-background:new 0 0 477.867 477.867;"
+                  xml:space="preserve"
+                  width="15"
+                  height="15"
+                  class=""
+                >
+                  <g>
+                    <g>
+                      <g>
+                        <path
+                          d="M341.333,85.333H51.2c-28.277,0-51.2,22.923-51.2,51.2v290.133c0,28.277,22.923,51.2,51.2,51.2h290.133    c28.277,0,51.2-22.923,51.2-51.2V136.533C392.533,108.256,369.61,85.333,341.333,85.333z M358.4,426.667    c0,9.426-7.641,17.067-17.067,17.067H51.2c-9.426,0-17.067-7.641-17.067-17.067V136.533c0-9.426,7.641-17.067,17.067-17.067    h290.133c9.426,0,17.067,7.641,17.067,17.067V426.667z"
+                          data-original="#000000"
+                          class="active-path"
+                          data-old_color="#000000"
+                          fill="#ABADAE"
+                        />
+                      </g>
+                    </g>
+                    <g>
+                      <g>
+                        <path
+                          d="M426.667,0h-307.2c-28.277,0-51.2,22.923-51.2,51.2c0,9.426,7.641,17.067,17.067,17.067S102.4,60.626,102.4,51.2    s7.641-17.067,17.067-17.067h307.2c9.426,0,17.067,7.641,17.067,17.067v307.2c0,9.426-7.641,17.067-17.067,17.067    s-17.067,7.641-17.067,17.067s7.641,17.067,17.067,17.067c28.277,0,51.2-22.923,51.2-51.2V51.2    C477.867,22.923,454.944,0,426.667,0z"
+                          data-original="#000000"
+                          class="active-path"
+                          data-old_color="#000000"
+                          fill="#ABADAE"
+                        />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </button>
+              <button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  version="1.1"
+                  id="Capa_1"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 512 512"
+                  style="enable-background:new 0 0 512 512;"
+                  xml:space="preserve"
+                  width="15"
+                  height="15"
+                  class=""
+                >
+                  <g>
+                    <g>
+                      <g>
+                        <path
+                          d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216    v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z"
+                          data-original="#000000"
+                          class="active-path"
+                          data-old_color="#000000"
+                          fill="#ABADAE"
+                        />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </button>
+            </div>
+
+            <div id="canvas-container">
+              <div class="work-area canvas"></div>
+            </div>
+
+            <div class="work-btn-2">
+              <!-- da dare classe a bottone riparare -->
+              <button id="add-btn" data-target="#canvas-container">
+                + Aggiungi una nuova pagina
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fine worktable -->
+
+      <a class="float" href="">Aiuto</a>
+    </div>
+    <!-- Fine container-fluid -->
+  </body>
+</html>

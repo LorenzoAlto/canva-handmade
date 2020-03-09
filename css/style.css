@@ -1,0 +1,249 @@
+body {
+  background-color: #edf0f2;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.p-nav {
+  color: #9ebfe3;
+  font-style: oblique;
+  font-weight: 300;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.btn-nav {
+  background-color: transparent;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  letter-spacing: 1px;
+  height: 40px;
+}
+
+.btn-nav-2 {
+  background-color: transparent;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  color: #9ebfe3;
+  height: 40px;
+}
+
+.btn-nav-3 {
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  height: 40px;
+  letter-spacing: 1px;
+}
+
+.btn-nav-4 {
+  background-color: rgba(248, 246, 253);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  height: 40px;
+  letter-spacing: 1px;
+}
+
+.btn-group-border-r {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #cccfd2;
+}
+
+.btn-group-border-l {
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: #cccfd2;
+}
+
+.btn-nav:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+
+.btn-nav-2:hover {
+  color: #9ebfe3;
+  border-color: #9ebfe3;
+  border-width: 1px;
+}
+
+.btn-nav-3:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+}
+
+.btn-nav-4:hover {
+  background-color: rgba(255, 255, 255);
+}
+
+.top-nav {
+  background: linear-gradient(
+    90deg,
+    rgba(85, 192, 202, 1) 0%,
+    rgba(113, 58, 223, 1) 100%
+  );
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.tool-bar {
+  background-color: #ffffff;
+  height: 47px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #cccfd2;
+  width: calc(100vw - 76px);
+  position: fixed;
+  top: 56px;
+  right: 0;
+  z-index: 1;
+}
+
+.work-table {
+  height: calc(100vh - 56px - 47px);
+  width: calc(100vw - 76px);
+  position: relative;
+  top: calc(56px + 47px);
+  left: 76px;
+}
+
+.work-area {
+  /*position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);       /* capire a cosa serve translate */
+  /* margin: 0 auto; */
+
+  position: relative;
+  min-height: calc(100vh - 56px - 84px - 56px - 47px - 5px);
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0;
+}
+
+.btn-side {
+  background-color: transparent;
+  color: #abadae;
+  border-width: 0px;
+  height: 76px;
+  padding-top: 10px;
+}
+
+.side-bar {
+  width: 76px;
+  background-color: #0f1318;
+  height: calc(100vh - 56px);
+  position: fixed;
+  top: 56px;
+  left: 0;
+  z-index: 1;
+}
+
+.side-bar button:hover {
+  color: #fff;
+}
+
+.side-bar p {
+  font-size: 0.7rem;
+  margin-top: 5px;
+}
+
+.work-btn {
+  height: 56px;
+  padding-right: 0;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+
+.work-btn button {
+  background-color: transparent;
+  border-width: 0px;
+  border-radius: 5px;
+  height: 35px;
+
+  padding: 0 10px 0 10px;
+}
+
+.work-btn button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.work-btn-2 {
+  height: 84px;
+  padding: 0;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.work-btn-2 button {
+  background-color: transparent;
+  border-width: 2px;
+  border-color: lightgrey;
+  color: grey;
+  border-radius: 5px;
+  width: 100%;
+  height: 42px;
+}
+
+.work-btn-2 button:hover {
+  border-color: #abadae;
+}
+
+.float {
+  position: fixed;
+  padding: 12px 30px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #713adf;
+  letter-spacing: 1px;
+  font-weight: 250;
+  color: #fff !important;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.float:hover {
+  background-color: rgb(138, 82, 252);
+}
+/* impostare un immagine di default che rientri nel div */
+.canvas img {
+  width: 200px;
+}
+
+.canvas video {
+  width: 400px;
+}
+
+.editor {
+  margin-top: 4px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

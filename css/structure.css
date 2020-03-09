@@ -1,0 +1,43 @@
+.p10r {
+  padding-right: 10px;
+}
+
+.m5w {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.m5h {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.m0w {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.p0w {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.p0h {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.m0h {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.p5w {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.m20h {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
