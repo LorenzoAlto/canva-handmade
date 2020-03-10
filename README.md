@@ -1,4 +1,4 @@
-# slidetool
+# slide-editor
 Slide editor similar to the famouse webapp Canva where you can create and customize slides like PowerPoint.
 
 I made this editor using bootstrap for the layout and media queries for the responsiveness.
