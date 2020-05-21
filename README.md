@@ -8,6 +8,8 @@ All the functionalities (like adding an element, edit, delete ecc) are all made 
 
 ![alt text](https://github.com/LorenzoAlto/slide-editor/blob/master/screenshots/example.png?raw=true)
 
+______________________________________________________________________________________________________________________________
+
 ![alt text](https://github.com/LorenzoAlto/slide-editor/blob/master/screenshots/video.png?raw=true)
 
 This was my first experiment with JQuery and it is pretty powerful.
